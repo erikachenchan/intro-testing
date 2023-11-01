@@ -4,9 +4,17 @@ import java.util.ArrayList;
 
 public class ExerciseManagement {
 
+    //ArrayList<Exercise>: This declares a variable named exercises of the type ArrayList that stores objects of the Exercise class.
+    // ArrayList is a dynamic array-like data structure in Java, which can grow or shrink in size as needed.
+    // In this case, it's specifically designed to hold objects of the Exercise class.
     private ArrayList<Exercise> exercises;
 
+    // This line declares a constructor for the ExerciseManagement class, and it's marked as public, which means it can be accessed from other parts of the program.
+    // Constructors are special methods used for initializing objects of a class.
     public ExerciseManagement() {
+        // Inside the constructor, this line initializes an instance variable named exercises.
+        // The this keyword is used to refer to the exercises variable of the current object (the object being constructed).
+        // It assigns a new ArrayList to the exercises variable.
         this.exercises = new ArrayList<>();
     }
 
